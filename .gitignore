@@ -4,5 +4,7 @@
 *.fq
 *.faa
 *.bz2
-*.csv
+*.tsv
 *.txt
+*.csv
+!data/metadata.csv
