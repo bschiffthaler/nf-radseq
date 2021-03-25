@@ -1,0 +1,3 @@
+[submodule "modules"]
+	path = modules
+	url = github:bschiffthaler/nf-modules

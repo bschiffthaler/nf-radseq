@@ -1,0 +1,8 @@
+*.gz
+*.fa
+*.fastq
+*.fq
+*.faa
+*.bz2
+*.csv
+*.txt
