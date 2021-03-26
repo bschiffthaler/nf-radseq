@@ -19,12 +19,16 @@ git clone --recursive https://github.com/bschiffthaler/nf-radseq.git
 2. Place your raw data into `data/fastq`. The data can be raw fastq, or gzip compressed fastq (recommended).
 
 3. Edit `data/metadata.csv`.
-  3.1 Do not change the header column, it is used internally
+  3.1 Do not change the header row, it is used internally
   3.2 File paths should be either absolute or relative to the project root (this git repo)
 
-4. Start the pipeline: `nextflow run main.nf`
+4. Adapt `nextflow.config` if necessary
 
-5. Generate template for materials and methods: `nextflow run materials.nf`
+5. Start the pipeline: `nextflow run main.nf`
+
+6. Generate template for materials and methods: `nextflow run materials.nf`
+
+## Example metadata.csv
 
 * *RF*: (string) Path to first PE read
 * *RS*: (string) Path to second PE read
